@@ -1,0 +1,4 @@
+Invoking command in '/root/inblue_ws/build/cspc_lidar': /usr/bin/cmake --build /root/inblue_ws/build/cspc_lidar -- -j20 -l20
+Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '0': /usr/bin/cmake --build /root/inblue_ws/build/cspc_lidar -- -j20 -l20
+Invoking command in '/root/inblue_ws/build/cspc_lidar': /usr/bin/cmake --install /root/inblue_ws/build/cspc_lidar
+Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '0': /usr/bin/cmake --install /root/inblue_ws/build/cspc_lidar

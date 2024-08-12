@@ -1,0 +1,26 @@
+[0.049s] Invoking command in '/root/inblue_ws/build/cspc_lidar': /usr/bin/cmake --build /root/inblue_ws/build/cspc_lidar -- -j20 -l20
+[0.183s] [100%] Built target cspc_lidar
+[0.198s] Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '0': /usr/bin/cmake --build /root/inblue_ws/build/cspc_lidar -- -j20 -l20
+[0.241s] Invoking command in '/root/inblue_ws/build/cspc_lidar': /usr/bin/cmake --install /root/inblue_ws/build/cspc_lidar
+[0.247s] -- Install configuration: ""
+[0.248s] -- Execute custom install script
+[0.249s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/lib/cspc_lidar/cspc_lidar
+[0.251s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py
+[0.251s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py
+[0.252s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml
+[0.252s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar
+[0.253s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar
+[0.255s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh
+[0.255s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv
+[0.255s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/path.sh
+[0.257s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/path.dsv
+[0.257s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.bash
+[0.257s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.sh
+[0.257s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.zsh
+[0.257s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.dsv
+[0.257s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/package.dsv
+[0.264s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar
+[0.264s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake
+[0.264s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake
+[0.265s] -- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/package.xml
+[0.266s] Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '0': /usr/bin/cmake --install /root/inblue_ws/build/cspc_lidar

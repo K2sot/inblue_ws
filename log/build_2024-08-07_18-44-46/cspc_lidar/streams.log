@@ -1,0 +1,818 @@
+[0.015s] Invoking command in '/root/inblue_ws/build/cspc_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/inblue_ws/src/cspc_lidar_sdk_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/cspc_lidar
+[0.028s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.132s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.178s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.200s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.361s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.376s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.472s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.474s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.694s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.892s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.887s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.895s] -- Looking for pthread.h
+[6.055s] -- Looking for pthread.h - found
+[6.055s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.253s] -- Found Threads: TRUE  
+[6.365s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.452s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.544s] -- Checking for module 'eigen3'
+[6.549s] --   Found eigen3, version 3.4.0
+[6.563s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[6.563s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.579s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[8.353s] -- Checking for module 'flann'
+[8.371s] --   Found flann, version 1.9.1
+[8.722s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[8.722s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.750s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[8.806s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[8.944s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[8.944s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[8.946s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[9.348s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[9.711s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[9.725s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[10.670s] -- Found X11: /usr/include   
+[10.670s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[10.762s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[10.762s] -- Looking for gethostbyname
+[10.852s] -- Looking for gethostbyname - found
+[10.853s] -- Looking for connect
+[10.948s] -- Looking for connect - found
+[10.948s] -- Looking for remove
+[11.047s] -- Looking for remove - found
+[11.047s] -- Looking for shmat
+[11.135s] -- Looking for shmat - found
+[11.135s] -- Looking for IceConnectionNumber in ICE
+[11.272s] -- Looking for IceConnectionNumber in ICE - found
+[11.964s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[11.966s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[11.968s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[11.969s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[12.098s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[12.270s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[12.273s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[12.277s] -- Found utf8cpp: /usr/include/utf8cpp  
+[12.321s] -- Checking for module 'libusb-1.0'
+[12.327s] --   Found libusb-1.0, version 1.0.25
+[12.398s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[12.400s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[12.400s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.548s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[12.548s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.548s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[14.538s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[14.542s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.545s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[16.430s] -- Found Qhull version 8.0.2
+[19.127s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[21.837s] -- looking for PCL_COMMON
+[21.837s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[21.837s] -- looking for PCL_KDTREE
+[21.838s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[21.838s] -- looking for PCL_OCTREE
+[21.838s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[21.838s] -- looking for PCL_SEARCH
+[21.839s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[21.839s] -- looking for PCL_SAMPLE_CONSENSUS
+[21.839s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[21.839s] -- looking for PCL_FILTERS
+[21.840s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[21.840s] -- looking for PCL_2D
+[21.840s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[21.840s] -- looking for PCL_GEOMETRY
+[21.840s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[21.840s] -- looking for PCL_IO
+[21.841s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[21.841s] -- looking for PCL_FEATURES
+[21.841s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[21.841s] -- looking for PCL_ML
+[21.842s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[21.842s] -- looking for PCL_SEGMENTATION
+[21.842s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[21.842s] -- looking for PCL_VISUALIZATION
+[21.843s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[21.843s] -- looking for PCL_SURFACE
+[21.843s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[21.843s] -- looking for PCL_REGISTRATION
+[21.844s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[21.844s] -- looking for PCL_KEYPOINTS
+[21.844s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[21.844s] -- looking for PCL_TRACKING
+[21.845s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[21.845s] -- looking for PCL_RECOGNITION
+[21.845s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[21.845s] -- looking for PCL_STEREO
+[21.846s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[21.846s] -- looking for PCL_APPS
+[21.846s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[21.847s] -- looking for PCL_IN_HAND_SCANNER
+[21.847s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[21.847s] -- looking for PCL_MODELER
+[21.847s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[21.847s] -- looking for PCL_POINT_CLOUD_EDITOR
+[21.847s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[21.847s] -- looking for PCL_OUTOFCORE
+[21.848s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[21.848s] -- looking for PCL_PEOPLE
+[21.848s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[21.849s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.10") 
+[21.860s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[21.987s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.149s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[22.151s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[22.151s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[22.433s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.434s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.434s] -- Configured cppcheck include dirs: /root/inblue_ws/src/cspc_lidar_sdk_ros2/include/cspc_lidar;/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk
+[22.434s] -- Configured cppcheck exclude dirs and/or files: 
+[22.435s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.435s] -- Configured cpplint exclude dirs and/or files: 
+[22.435s] -- Added test 'flake8' to check Python code syntax and style conventions
+[22.436s] -- Added test 'lint_cmake' to check CMake code style
+[22.436s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[22.438s] -- Added test 'uncrustify' to check C / C++ code style
+[22.438s] -- Configured uncrustify additional arguments: 
+[22.438s] -- Added test 'xmllint' to check XML markup files
+[22.439s] -- Configuring done
+[22.467s] -- Generating done
+[22.468s] -- Build files have been written to: /root/inblue_ws/build/cspc_lidar
+[22.482s] Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/inblue_ws/src/cspc_lidar_sdk_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/cspc_lidar
+[22.482s] Invoking command in '/root/inblue_ws/build/cspc_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/inblue_ws/build/cspc_lidar -- -j20 -l20
+[22.510s] [ 11%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/mtime.cpp.o[0m
+[22.510s] [ 44%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/node_lidar.cpp.o[0m
+[22.510s] [ 44%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/timer.cpp.o[0m
+[22.511s] [ 44%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/serial_port.cpp.o[0m
+[22.511s] [ 55%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/lidar_data_processing.cpp.o[0m
+[22.511s] [ 66%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/calibration.cpp.o[0m
+[22.512s] [ 77%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/sdk/point_cloud_optimize.cpp.o[0m
+[22.515s] [ 88%] [32mBuilding CXX object CMakeFiles/cspc_lidar.dir/src/node_lidar_ros.cpp.o[0m
+[22.792s] In file included from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.cpp:12[m[K:
+[22.792s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.h:[m[K In constructor ‘[01m[KSerial_Port::Serial_Port(const string&, uint32_t, Timeout, bytesize_t, parity_t, stopbits_t, flowcontrol_t)[m[K’:
+[22.792s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.h:102:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerial_Port::bytesize_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[22.792s]   102 |   bytesize_t [01;35m[Kbytesize_[m[K;       // Size of the bytes
+[22.792s]       |              [01;35m[K^~~~~~~~~[m[K
+[22.792s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.h:101:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kparity_t Serial_Port::parity_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[22.792s]   101 |   parity_t [01;35m[Kparity_[m[K;           // Parity
+[22.792s]       |            [01;35m[K^~~~~~~[m[K
+[22.792s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.cpp:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[22.792s]    31 | [01;35m[KSerial_Port[m[K::Serial_Port(const string &port, uint32_t baudrate, Timeout timeout,
+[22.792s]       | [01;35m[K^~~~~~~~~~~[m[K
+[22.795s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.cpp:[m[K In member function ‘[01m[Kbool Serial_Port::setBaudrate(long unsigned int)[m[K’:
+[22.795s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.cpp:578:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_baud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.795s]   578 |   speed_t [01;35m[Knew_baud[m[K = static_cast<speed_t>(baudrate);
+[22.795s]       |           [01;35m[K^~~~~~~~[m[K
+[22.833s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::PointCloudFilter(LaserScan*)[m[K’:
+[22.833s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:25:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.833s]    25 |         for (i0 = 0; [01;35m[Ki0 < Scan->points.size()[m[K; i0++)
+[22.833s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.833s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.cpp:[m[K In member function ‘[01m[Kbool Serial_Port::setCustomBaudRate(long unsigned int)[m[K’:
+[22.833s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/serial_port.cpp:571:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[22.833s]   571 | [01;35m[K}[m[K
+[22.833s]       | [01;35m[K^[m[K
+[22.833s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:28:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.833s]    28 |                 i1 = [01;35m[Ki1 < Scan->points.size()[m[K ? i1 : i1 - Scan->points.size();
+[22.834s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.834s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:30:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.834s]    30 |                 i2 = [01;35m[Ki2 < Scan->points.size()[m[K ? i2 : i2 - Scan->points.size();
+[22.834s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.834s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:32:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.834s]    32 |                 i3 = [01;35m[Ki3 < Scan->points.size()[m[K ? i3 : i3 - Scan->points.size();
+[22.834s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.834s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:155:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.835s]   155 |         for (i0 = 0; [01;35m[Ki0 < Scan->points.size()[m[K; i0++)
+[22.835s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.835s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:158:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.835s]   158 |                 i1 = [01;35m[Ki1 < Scan->points.size()[m[K ? i1 : i1 - Scan->points.size();
+[22.835s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.835s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:160:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.835s]   160 |                 i2 = [01;35m[Ki2 < Scan->points.size()[m[K ? i2 : i2 - Scan->points.size();
+[22.835s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.835s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:162:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.836s]   162 |                 i3 = [01;35m[Ki3 < Scan->points.size()[m[K ? i3 : i3 - Scan->points.size();
+[22.836s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.836s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:164:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.836s]   164 |                 i4 = [01;35m[Ki4 < Scan->points.size()[m[K ? i4 : i4 - Scan->points.size();
+[22.836s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[22.836s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kint Point_cloud_optimize::UltrasonicSimRanging(LaserPoint&)[m[K’:
+[22.836s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:228:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.837s]   228 |         int [01;35m[Ki[m[K, index;
+[22.837s]       |             [01;35m[K^[m[K
+[22.837s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:229:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktempdep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.837s]   229 |         short [01;35m[Ktempdep[m[K;
+[22.837s]       |               [01;35m[K^~~~~~~[m[K
+[22.837s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:253:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[22.837s]   253 | [01;35m[K}[m[K
+[22.837s]       | [01;35m[K^[m[K
+[22.838s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::lidar_blocked_judge(int)[m[K’:
+[22.838s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:341:60:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[22.838s]   341 |                 printf("lidar 雷达被严重遮挡百分之七十 %d,[01;35m[K%d[m[K\n",node_lidar.lidar_block.lidar_zero_count,[32m[Knode_lidar.scan_node_count[m[K);
+[22.838s]       |                                                           [01;35m[K~^[m[K                                            [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.838s]       |                                                            [01;35m[K|[m[K                                                       [32m[K|[m[K
+[22.838s]       |                                                            [01;35m[Kint[m[K                                                     [32m[Ksize_t {aka long unsigned int}[m[K
+[22.839s]       |                                                           [32m[K%ld[m[K
+[22.839s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:[m[K In member function ‘[01m[Kvoid Point_cloud_optimize::lidar_blocked_init()[m[K’:
+[22.839s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:404:69:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[22.839s]   404 |                         if((angle >= 0 && angle < 90)|| [01;35m[Kangle > 270 && angle <=360[m[K){
+[22.839s]       |                                                         [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[22.839s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/point_cloud_optimize.cpp:375:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.839s]   375 |         float r, d, [01;35m[Ktemp[m[K;
+[22.839s]       |                     [01;35m[K^~~~[m[K
+[22.880s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitSpeedRight(uint8_t, uint64_t)[m[K’:
+[22.880s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:94:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[22.880s]    94 | result_t Lidar_Data_Processing::waitSpeedRight([01;35m[Kuint8_t cmd[m[K,uint64_t timeout)
+[22.881s]       |                                                [01;35m[K~~~~~~~~^~~[m[K
+[22.881s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitResponseHeader(uint8_t, uint64_t)[m[K’:
+[22.881s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:366:28:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[22.881s]   366 |       printf("data**%d,%d,[01;35m[K%d[m[K\n",check_sum_cal,recvBuffer[remainSize-1],[32m[KremainSize[m[K);
+[22.881s]       |                           [01;35m[K~^[m[K                                           [32m[K~~~~~~~~~~[m[K
+[22.881s]       |                            [01;35m[K|[m[K                                           [32m[K|[m[K
+[22.882s]       |                            [01;35m[Kint[m[K                                         [32m[Ksize_t {aka long unsigned int}[m[K
+[22.882s]       |                           [32m[K%ld[m[K
+[22.886s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:[m[K In member function ‘[01m[Kresult_t Lidar_Data_Processing::waitPackage_coin(node_info*, uint32_t)[m[K’:
+[22.886s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:858:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.886s]   858 |     int [01;35m[Kk[m[K;
+[22.886s]       |         [01;35m[K^[m[K
+[22.886s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:758:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KAngleCorrectForDistance[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[22.886s]   758 |   int32_t [01;35m[KAngleCorrectForDistance[m[K = 0;
+[22.886s]       |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.886s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:760:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpackage_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.886s]   760 |   uint8_t [01;35m[Kpackage_type[m[K = 0;
+[22.886s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[22.886s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:762:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.886s]   762 |   uint16_t [01;35m[Kstart[m[K;
+[22.887s]       |            [01;35m[K^~~~~[m[K
+[22.887s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_data_processing.cpp:763:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstop[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.887s]   763 |   uint16_t [01;35m[Kstop[m[K;
+[22.887s]       |            [01;35m[K^~~~[m[K
+[22.887s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:[m[K In function ‘[01m[Kvoid flushSerial()[m[K’:
+[22.887s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbytes_read[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.887s]    53 |                 size_t [01;35m[Kbytes_read[m[K = node_lidar.serial_port->read_data(buffer, len);
+[22.887s]       |                        [01;35m[K^~~~~~~~~~[m[K
+[22.887s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:[m[K In function ‘[01m[Kbool lidar_state_judgment()[m[K’:
+[22.887s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:86:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 2 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[22.888s]    86 |                 printf("状态异常重新启动 [01;35m[K%lld[m[K\n",[32m[Klidar_status_time[m[K);
+[22.888s]       |                                          [01;35m[K~~~^[m[K    [32m[K~~~~~~~~~~~~~~~~~[m[K
+[22.888s]       |                                             [01;35m[K|[m[K    [32m[K|[m[K
+[22.888s]       |                                             [01;35m[K|[m[K    [32m[Kuint64_t {aka long unsigned int}[m[K
+[22.888s]       |                                             [01;35m[Klong long int[m[K
+[22.888s]       |                                          [32m[K%ld[m[K
+[22.888s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:62:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kstatus_judge[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.889s]    62 |         static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+[22.889s]       |                     [01;35m[K^~~~~~~~~~~~[m[K
+[22.889s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:65:21:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Klidar_start_flag[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[22.889s]    65 |         static bool [01;35m[Klidar_start_flag[m[K = false; //下发雷达启动指令后的雷达反馈标志
+[22.889s]       |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[22.889s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:[m[K In function ‘[01m[Kint read_forever()[m[K’:
+[22.889s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:200:82:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[22.889s]   200 |                                                         printf("full----- count=[01;35m[K%d[m[K,time=%lld\n",[32m[Kscan_count[m[K,current_times());
+[22.890s]       |                                                                                 [01;35m[K~^[m[K              [32m[K~~~~~~~~~~[m[K
+[22.890s]       |                                                                                  [01;35m[K|[m[K              [32m[K|[m[K
+[22.890s]       |                                                                                  [01;35m[Kint[m[K            [32m[Ksize_t {aka long unsigned int}[m[K
+[22.890s]       |                                                                                 [32m[K%ld[m[K
+[22.890s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:200:92:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lld[m[K’ expects argument of type ‘[01m[Klong long int[m[K’, but argument 3 has type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[22.890s]   200 |                                                         printf("full----- count=%d,time=[01;35m[K%lld[m[K\n",scan_count,[32m[Kcurrent_times()[m[K);
+[22.890s]       |                                                                                         [01;35m[K~~~^[m[K               [32m[K~~~~~~~~~~~~~~~[m[K
+[22.890s]       |                                                                                            [01;35m[K|[m[K                            [32m[K|[m[K
+[22.890s]       |                                                                                            [01;35m[Klong long int[m[K                [32m[Kint64_t {aka long int}[m[K
+[22.890s]       |                                                                                         [32m[K%ld[m[K
+[22.891s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:[m[K In function ‘[01m[Kvoid pcloud_build_by_scan(LaserScan&, pcloud_t&)[m[K’:
+[22.891s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:44:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.891s]    44 |   for (int i = 0; [01;35m[Ki < outscan.points.size()[m[K; i++)
+[22.891s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.891s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:46:11:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of non-trivial type ‘[01m[Kpoint_t[m[K’ {aka ‘[01m[Kstruct _point_[m[K’}; use assignment or value-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.891s]    46 |     [01;35m[Kmemset(&point, 0, sizeof(point_t))[m[K;
+[22.891s]       |     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.891s] In file included from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:8[m[K:
+[22.891s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.h:52:16:[m[K [01;36m[Knote: [m[K‘[01m[Kpoint_t[m[K’ {aka ‘[01m[Kstruct _point_[m[K’} declared here
+[22.891s]    52 | typedef struct [01;36m[K_point_[m[K
+[22.891s]       |                [01;36m[K^~~~~~~[m[K
+[22.891s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:[m[K In function ‘[01m[Kint find_index(point_t, pcloud_t&)[m[K’:
+[22.892s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:105:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of non-trivial type ‘[01m[Kpoint_t[m[K’ {aka ‘[01m[Kstruct _point_[m[K’}; use assignment or value-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.892s]   105 |   [01;35m[Kmemset(&point_min, 0, sizeof(point_t))[m[K;
+[22.892s]       |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.892s] In file included from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:8[m[K:
+[22.892s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.h:52:16:[m[K [01;36m[Knote: [m[K‘[01m[Kpoint_t[m[K’ {aka ‘[01m[Kstruct _point_[m[K’} declared here
+[22.893s]    52 | typedef struct [01;36m[K_point_[m[K
+[22.893s]       |                [01;36m[K^~~~~~~[m[K
+[22.893s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:124:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.893s]   124 |   if ([01;35m[Kpoint_min.index > pcloud.data.size()[m[K)
+[22.893s]       |       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[22.893s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:[m[K In function ‘[01m[Kbool intersect(LineSegment, LineSegment, Vector2D&)[m[K’:
+[22.893s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:167:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcross1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.893s]   167 |   double [01;35m[Kcross1[m[K = position1.x * direction1.y - position1.y * direction1.x;
+[22.893s]       |          [01;35m[K^~~~~~[m[K
+[22.899s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:[m[K In function ‘[01m[Kdouble pointToLineDist(point_t, double, double)[m[K’:
+[22.899s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:439:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.899s]   439 |   double [01;35m[Ky0[m[K = k * x0 + b;
+[22.899s]       |          [01;35m[K^~[m[K
+[22.900s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:[m[K In function ‘[01m[Kbool line_judgment(std::vector<_point_>, point_t)[m[K’:
+[22.900s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:462:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.900s]   462 |   if ([01;35m[Kline.size() <= reference[m[K)
+[22.900s]       |       [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[22.900s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:467:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.900s]   467 |   if ([01;35m[Kline.size() <= reference[m[K)
+[22.900s]       |       [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[22.900s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:471:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.900s]   471 |     for (int i = 1; [01;35m[Ki < line.size() - 1[m[K; i++)
+[22.900s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[22.903s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:[m[K In function ‘[01m[Kvoid fitting_line(pcloud_t&)[m[K’:
+[22.903s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:542:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.903s]   542 |         if ([01;35m[Kline.size() >= calibration_params.line_judgment_point_num[m[K)
+[22.903s]       |             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.903s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:560:63:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.903s]   560 |         if(point.index == point_last_one.index && [01;35m[Kline.size() >= calibration_params.line_judgment_point_num[m[K)
+[22.903s]       |                                                   [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.903s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:571:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.903s]   571 |   if([01;35m[Kpoint_record2.index < pcloud.data.size()[m[K
+[22.903s]       |      [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[22.903s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:572:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.904s]   572 |   &&  [01;35m[Kpoint_last_one.index < pcloud.data.size()[m[K
+[22.904s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[22.904s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:573:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.904s]   573 |   &&  [01;35m[Kpoint_record1.index < pcloud.data.size()[m[K)
+[22.904s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[22.904s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:597:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.904s]   597 |     if ([01;35m[Kline_append.size() >= calibration_params.line_judgment_point_num[m[K)
+[22.904s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.904s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:606:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.904s]   606 |             if ([01;35m[Kline.size() >= calibration_params.line_judgment_point_num[m[K)
+[22.905s]       |                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.905s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:617:68:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<_point_>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.905s]   617 |           if(point.index == point_append_last.index && [01;35m[Kline.size() >= calibration_params.line_judgment_point_num[m[K)
+[22.905s]       |                                                        [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.905s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:632:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<_point_> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[22.905s]   632 |     for (int i = 0; [01;35m[Ki < lines.size() - 1[m[K; i++)
+[22.905s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[22.905s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:[m[K In function ‘[01m[Kvoid lidar_calibration(LaserScan&)[m[K’:
+[22.905s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:662:11:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memset(void*, int, size_t)[m[K’ clearing an object of type ‘[01m[Kstruct LaserPoint[m[K’ with no trivial copy-assignment; use assignment or value-initialization instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[22.906s]   662 |     [01;35m[Kmemset(&outscan_point, 0, sizeof(LaserPoint))[m[K;
+[22.906s]       |     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[22.906s] In file included from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.h:4[m[K,
+[22.906s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/calibration.cpp:8[m[K:
+[22.906s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/lidar_information.h:210:8:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct LaserPoint[m[K’ declared here
+[22.906s]   210 | struct [01;36m[KLaserPoint[m[K
+[22.906s]       |        [01;36m[K^~~~~~~~~~[m[K
+[22.977s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:[m[K At global scope:
+[22.978s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/sdk/node_lidar.cpp:62:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstatus_judge[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.978s]    62 |         static bool [01;35m[Kstatus_judge[m[K = false;     //整体状态判断
+[22.978s]       |                     [01;35m[K^~~~~~~~~~~~[m[K
+[25.515s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.516s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.516s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.516s]   241 |     struct [01;35m[K{[m[K \
+[25.516s]       |            [01;35m[K^[m[K
+[25.516s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.516s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.516s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.516s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.516s]   337 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.516s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.592s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.592s]   289 |       [01;35m[K{[m[K \
+[25.592s]       |       [01;35m[K^[m[K
+[25.592s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[25.592s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[25.593s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[25.593s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[25.593s]   368 |     [01;36m[KPCL_ADD_RGB[m[K;
+[25.593s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[25.651s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.651s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.651s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.651s]   318 |     [01;35m[K{[m[K \
+[25.651s]       |     [01;35m[K^[m[K
+[25.651s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+[25.651s]   411 |     [01;36m[KPCL_ADD_INTENSITY[m[K;
+[25.651s]       |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[25.651s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.652s]   411 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+[25.652s]       |                      [01;35m[K^[m[K
+[25.652s]       |                      [31m[K-[m[K
+[25.652s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.652s]   324 |     [01;35m[K{[m[K \
+[25.652s]       |     [01;35m[K^[m[K
+[25.652s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_8U[m[K’
+[25.652s]   437 |     [01;36m[KPCL_ADD_INTENSITY_8U[m[K;
+[25.652s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[25.652s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.652s]   437 |     PCL_ADD_INTENSITY_8U[01;35m[K;[m[K
+[25.652s]       |                         [01;35m[K^[m[K
+[25.652s]       |                         [31m[K-[m[K
+[25.652s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.652s]   330 |     [01;35m[K{[m[K \
+[25.652s]       |     [01;35m[K^[m[K
+[25.652s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_32U[m[K’
+[25.652s]   469 |     [01;36m[KPCL_ADD_INTENSITY_32U[m[K;
+[25.652s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.652s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.653s]   469 |     PCL_ADD_INTENSITY_32U[01;35m[K;[m[K
+[25.653s]       |                          [01;35m[K^[m[K
+[25.653s]       |                          [31m[K-[m[K
+[25.653s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.653s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.653s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.653s]   241 |     struct [01;35m[K{[m[K \
+[25.653s]       |            [01;35m[K^[m[K
+[25.653s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.653s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.653s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.653s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.653s]   497 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.653s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.653s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.653s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.653s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.653s]   501 |       [01;35m[K{[m[K
+[25.653s]       |       [01;35m[K^[m[K
+[25.653s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.654s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.654s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.654s]   241 |     struct [01;35m[K{[m[K \
+[25.654s]       |            [01;35m[K^[m[K
+[25.654s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.654s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.654s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.654s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.654s]   533 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.654s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.654s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.654s]   241 |     struct [01;35m[K{[m[K \
+[25.654s]       |            [01;35m[K^[m[K
+[25.654s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.654s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.654s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.654s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.654s]   573 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.654s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.655s]   289 |       [01;35m[K{[m[K \
+[25.655s]       |       [01;35m[K^[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[25.655s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[25.655s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[25.655s]   574 |     [01;36m[KPCL_ADD_RGB[m[K;
+[25.655s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.655s]   241 |     struct [01;35m[K{[m[K \
+[25.655s]       |            [01;35m[K^[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.655s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.655s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.655s]   629 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.655s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.655s]   289 |       [01;35m[K{[m[K \
+[25.655s]       |       [01;35m[K^[m[K
+[25.655s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[25.655s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[25.655s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[25.656s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[25.656s]   630 |     [01;36m[KPCL_ADD_RGB[m[K;
+[25.656s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[25.656s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.656s]   241 |     struct [01;35m[K{[m[K \
+[25.656s]       |            [01;35m[K^[m[K
+[25.656s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.656s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.656s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.656s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.656s]   636 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.656s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.656s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.656s]   289 |       [01;35m[K{[m[K \
+[25.656s]       |       [01;35m[K^[m[K
+[25.656s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[25.656s]   313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+[25.657s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[25.657s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+[25.657s]   637 |     [01;36m[KPCL_ADD_RGB[m[K;
+[25.657s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[25.657s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.657s]   241 |     struct [01;35m[K{[m[K \
+[25.657s]       |            [01;35m[K^[m[K
+[25.657s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.657s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.657s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.657s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.658s]   741 |     [01;36m[KPCL_ADD_POINT4D[m[K; // this adds the members x,y,z
+[25.658s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.658s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.658s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.658s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.658s]   745 |       [01;35m[K{[m[K
+[25.658s]       |       [01;35m[K^[m[K
+[25.658s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.658s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.658s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.658s]   241 |     struct [01;35m[K{[m[K \
+[25.659s]       |            [01;35m[K^[m[K
+[25.659s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.659s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.659s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.659s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.659s]   782 |     [01;36m[KPCL_ADD_POINT4D[m[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.659s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.659s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.659s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.659s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.659s]   786 |       [01;35m[K{[m[K
+[25.659s]       |       [01;35m[K^[m[K
+[25.660s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.660s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.660s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.660s]   241 |     struct [01;35m[K{[m[K \
+[25.660s]       |            [01;35m[K^[m[K
+[25.660s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.660s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.660s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.660s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.660s]   867 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.660s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.661s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.661s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.661s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.661s]   871 |       [01;35m[K{[m[K
+[25.661s]       |       [01;35m[K^[m[K
+[25.661s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.661s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.661s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.661s]   266 |     struct [01;35m[K{[m[K \
+[25.661s]       |            [01;35m[K^[m[K
+[25.661s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[25.661s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[25.661s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.662s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[25.662s]   883 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[25.662s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[25.662s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.662s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.662s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.662s]   887 |       [01;35m[K{[m[K
+[25.662s]       |       [01;35m[K^[m[K
+[25.662s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.662s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.662s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.662s]   266 |     struct [01;35m[K{[m[K \
+[25.662s]       |            [01;35m[K^[m[K
+[25.662s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[25.663s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[25.663s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.663s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[25.663s]   924 |     [01;36m[KPCL_ADD_NORMAL4D[m[K;
+[25.663s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[25.663s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.663s]   241 |     struct [01;35m[K{[m[K \
+[25.663s]       |            [01;35m[K^[m[K
+[25.663s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.663s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.663s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.663s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.663s]   955 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.663s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.663s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.663s]   266 |     struct [01;35m[K{[m[K \
+[25.663s]       |            [01;35m[K^[m[K
+[25.663s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[25.663s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[25.664s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.664s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[25.664s]   956 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[25.664s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[25.664s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.664s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.664s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.664s]   960 |       [01;35m[K{[m[K
+[25.664s]       |       [01;35m[K^[m[K
+[25.664s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.664s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.664s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.664s]   241 |     struct [01;35m[K{[m[K \
+[25.664s]       |            [01;35m[K^[m[K
+[25.664s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.665s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.665s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.665s]  1001 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.665s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.665s]   266 |     struct [01;35m[K{[m[K \
+[25.665s]       |            [01;35m[K^[m[K
+[25.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[25.665s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[25.665s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[25.665s]  1002 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[25.665s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[25.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.665s]   289 |       [01;35m[K{[m[K \
+[25.665s]       |       [01;35m[K^[m[K
+[25.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[25.665s]  1007 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+[25.665s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[25.665s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.665s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.665s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.666s]  1007 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+[25.666s]       |                          [01;35m[K^[m[K
+[25.666s]       |                          [31m[K-[m[K
+[25.666s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.666s]  1006 |       [01;35m[K{[m[K
+[25.666s]       |       [01;35m[K^[m[K
+[25.666s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.666s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.666s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.666s]   241 |     struct [01;35m[K{[m[K \
+[25.667s]       |            [01;35m[K^[m[K
+[25.667s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.667s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.667s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.667s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.667s]  1085 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.667s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.667s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.667s]   266 |     struct [01;35m[K{[m[K \
+[25.667s]       |            [01;35m[K^[m[K
+[25.667s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[25.667s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[25.667s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.667s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[25.667s]  1086 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[25.668s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[25.668s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.668s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.668s]  1090 |       [01;35m[K{[m[K
+[25.668s]       |       [01;35m[K^[m[K
+[25.668s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.668s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.668s]   241 |     struct [01;35m[K{[m[K \
+[25.668s]       |            [01;35m[K^[m[K
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.668s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.668s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.668s]  1135 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.668s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.668s]   266 |     struct [01;35m[K{[m[K \
+[25.668s]       |            [01;35m[K^[m[K
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[25.668s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[25.668s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[25.668s]  1136 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[25.668s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[25.668s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.668s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.668s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.669s]  1140 |       [01;35m[K{[m[K
+[25.669s]       |       [01;35m[K^[m[K
+[25.669s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.669s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.669s]   241 |     struct [01;35m[K{[m[K \
+[25.669s]       |            [01;35m[K^[m[K
+[25.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.669s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.669s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.669s]  1187 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.669s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.669s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.669s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.669s]  1191 |       [01;35m[K{[m[K
+[25.669s]       |       [01;35m[K^[m[K
+[25.669s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.669s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.669s]   241 |     struct [01;35m[K{[m[K \
+[25.669s]       |            [01;35m[K^[m[K
+[25.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.669s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.669s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.669s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.669s]  1226 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.669s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.669s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.669s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.670s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.670s]  1230 |       [01;35m[K{[m[K
+[25.670s]       |       [01;35m[K^[m[K
+[25.670s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.670s]  1326 |       [01;35m[K{[m[K
+[25.670s]       |       [01;35m[K^[m[K
+[25.670s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.670s]  1519 |       [01;35m[K{[m[K
+[25.670s]       |       [01;35m[K^[m[K
+[25.700s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.701s]  1738 |       [01;35m[K{[m[K
+[25.701s]       |       [01;35m[K^[m[K
+[25.701s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.701s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.701s]   241 |     struct [01;35m[K{[m[K \
+[25.701s]       |            [01;35m[K^[m[K
+[25.701s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.701s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.702s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.702s]  1765 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.702s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.702s]   241 |     struct [01;35m[K{[m[K \
+[25.702s]       |            [01;35m[K^[m[K
+[25.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.702s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.702s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.702s]  1818 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+[25.702s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[25.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.702s]   266 |     struct [01;35m[K{[m[K \
+[25.702s]       |            [01;35m[K^[m[K
+[25.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+[25.702s]   280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+[25.702s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.702s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+[25.702s]  1819 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+[25.703s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[25.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.703s]   289 |       [01;35m[K{[m[K \
+[25.703s]       |       [01;35m[K^[m[K
+[25.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+[25.703s]  1824 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+[25.703s]       |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[25.703s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.703s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.703s]  1824 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+[25.703s]       |                          [01;35m[K^[m[K
+[25.703s]       |                          [31m[K-[m[K
+[25.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.703s]  1823 |       [01;35m[K{[m[K
+[25.703s]       |       [01;35m[K^[m[K
+[25.703s] In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[25.703s]                  from [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:9[m[K:
+[25.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[25.703s]   241 |     struct [01;35m[K{[m[K \
+[25.703s]       |            [01;35m[K^[m[K
+[25.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+[25.703s]   259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+[25.703s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[25.703s] [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+[25.703s]  1867 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+[25.703s]       |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[26.242s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:[m[K In function ‘[01m[Kint Scan_to_PointCloud(LaserScan&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[26.242s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:85:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.242s]    85 |         for(int i = 0;[01;35m[Ki<scan.points.size()[m[K;i++)
+[26.242s]       |                       [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[26.242s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:95:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[26.242s]    95 | [01;35m[K}[m[K
+[26.242s]       | [01;35m[K^[m[K
+[26.244s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:[m[K In function ‘[01m[Kint topic_thread()[m[K’:
+[26.244s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:100:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[26.244s]   100 | [01;35m[K}[m[K
+[26.245s]       | [01;35m[K^[m[K
+[26.253s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[26.254s] [01m[K/root/inblue_ws/src/cspc_lidar_sdk_ros2/src/node_lidar_ros.cpp:183:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<LaserPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[26.254s]   183 |                         for(int i=0; [01;35m[Ki < scan.points.size()[m[K; i++) {
+[26.254s]       |                                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[31.651s] [100%] [32m[1mLinking CXX executable cspc_lidar[0m
+[32.061s] [100%] Built target cspc_lidar
+[32.067s] Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/inblue_ws/build/cspc_lidar -- -j20 -l20
+[32.087s] Invoking command in '/root/inblue_ws/build/cspc_lidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/inblue_ws/build/cspc_lidar
+[32.090s] -- Install configuration: ""
+[32.091s] -- Execute custom install script
+[32.091s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/lib/cspc_lidar/cspc_lidar
+[32.095s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py
+[32.099s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py:Zone.Identifier
+[32.103s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py
+[32.107s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py:Zone.Identifier
+[32.110s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml
+[32.114s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml:Zone.Identifier
+[32.119s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar
+[32.124s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar
+[32.129s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh
+[32.132s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv
+[32.136s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/path.sh
+[32.140s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/path.dsv
+[32.144s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.bash
+[32.148s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.sh
+[32.152s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.zsh
+[32.156s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.dsv
+[32.159s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/package.dsv
+[32.164s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar
+[32.168s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake
+[32.172s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake
+[32.176s] -- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/package.xml
+[32.181s] Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/inblue_ws/build/cspc_lidar

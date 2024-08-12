@@ -1,0 +1,2 @@
+Invoking command in '/root/inblue_ws/build/my_bot': /usr/bin/cmake /root/inblue_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/my_bot
+Invoked command in '/root/inblue_ws/build/my_bot' returned '1': /usr/bin/cmake /root/inblue_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/my_bot

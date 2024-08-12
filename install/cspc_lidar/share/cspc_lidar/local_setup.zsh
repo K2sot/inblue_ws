@@ -1,0 +1,1 @@
+/root/inblue_ws/build/cspc_lidar/ament_cmake_environment_hooks/local_setup.zsh

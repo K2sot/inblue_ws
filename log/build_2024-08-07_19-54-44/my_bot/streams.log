@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/root/inblue_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/inblue_ws/build/my_bot -- -j20 -l20
+[0.032s] Invoked command in '/root/inblue_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/inblue_ws/build/my_bot -- -j20 -l20
+[0.049s] Invoking command in '/root/inblue_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/inblue_ws/build/my_bot
+[0.052s] -- Install configuration: ""
+[0.052s] -- Execute custom install script
+[0.053s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.053s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.053s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.053s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.054s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.054s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.054s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.054s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.054s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.055s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.056s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.056s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.056s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.056s] -- Symlinking: /root/inblue_ws/install/my_bot/share/my_bot/package.dsv
+[0.058s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.058s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.058s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.058s] -- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/package.xml
+[0.060s] Invoked command in '/root/inblue_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/inblue_ws/build/my_bot

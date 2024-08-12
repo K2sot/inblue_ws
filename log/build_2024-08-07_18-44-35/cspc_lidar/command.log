@@ -1,0 +1,2 @@
+Invoking command in '/root/inblue_ws/build/cspc_lidar': /usr/bin/cmake /root/inblue_ws/src/cspc_lidar_sdk_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/cspc_lidar
+Invoked command in '/root/inblue_ws/build/cspc_lidar' returned '1': /usr/bin/cmake /root/inblue_ws/src/cspc_lidar_sdk_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/cspc_lidar
