@@ -1,0 +1,1 @@
+/root/inblue_ws/build/slam_toolbox/rosidl_cmake/srvs/ToggleInteractive_Request.msg

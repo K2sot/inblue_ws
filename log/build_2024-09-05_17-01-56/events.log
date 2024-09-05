@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (cspc_lidar) JobQueued: {'identifier': 'cspc_lidar', 'dependencies': OrderedDict()}
+[0.000317] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000342] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000367] (cspc_lidar) JobStarted: {'identifier': 'cspc_lidar'}
+[0.004246] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.006277] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.009570] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'cmake'}
+[0.010232] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'build'}
+[0.011009] (cspc_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/inblue_ws/build/cspc_lidar', '--', '-j20', '-l20'], 'cwd': '/root/inblue_ws/build/cspc_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6c42466c-837b-41cc-931f-e0bd1fb829e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'KSOT'), ('WSL_INTEROP', '/run/WSL/613_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/kevin/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-2f894d9ee4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/inblue_ws/build/cspc_lidar'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.012845] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.013226] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.013717] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/inblue_ws/build/my_bot', '--', '-j20', '-l20'], 'cwd': '/root/inblue_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6c42466c-837b-41cc-931f-e0bd1fb829e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'KSOT'), ('WSL_INTEROP', '/run/WSL/613_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/kevin/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-2f894d9ee4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/inblue_ws/build/my_bot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016050] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.017337] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/root/inblue_ws/src/slam_toolbox', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox'], 'cwd': '/root/inblue_ws/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6c42466c-837b-41cc-931f-e0bd1fb829e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'KSOT'), ('WSL_INTEROP', '/run/WSL/613_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/kevin/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-2f894d9ee4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/inblue_ws/build/slam_toolbox'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025323] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.033049] (my_bot) CommandEnded: {'returncode': 0}
+[0.043599] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.047416] (cspc_lidar) StdoutLine: {'line': b'[100%] Built target cspc_lidar\n'}
+[0.048848] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/inblue_ws/build/my_bot'], 'cwd': '/root/inblue_ws/build/my_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6c42466c-837b-41cc-931f-e0bd1fb829e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'KSOT'), ('WSL_INTEROP', '/run/WSL/613_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/kevin/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-2f894d9ee4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/inblue_ws/build/my_bot'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052433] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.052631] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.052835] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.052983] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.053131] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.053566] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.053942] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.054054] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.054143] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.054230] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.054316] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.054403] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.054621] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.054824] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.054917] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.055005] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.055092] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.055179] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.055266] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.055352] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.055439] (my_bot) StdoutLine: {'line': b'-- Symlinking: /root/inblue_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.055691] (cspc_lidar) CommandEnded: {'returncode': 0}
+[0.059012] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.059244] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.059362] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.059404] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.060424] (my_bot) CommandEnded: {'returncode': 0}
+[0.076961] (cspc_lidar) JobProgress: {'identifier': 'cspc_lidar', 'progress': 'install'}
+[0.077869] (cspc_lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/inblue_ws/build/cspc_lidar'], 'cwd': '/root/inblue_ws/build/cspc_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-6c42466c-837b-41cc-931f-e0bd1fb829e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'KSOT'), ('WSL_INTEROP', '/run/WSL/613_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/PowerShell/7/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kevin/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/kevin/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-2f894d9ee4.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/inblue_ws/build/cspc_lidar'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.081512] (cspc_lidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.082928] (cspc_lidar) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.083152] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/lib/cspc_lidar/cspc_lidar\n'}
+[0.083252] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_launch.py\n'}
+[0.083339] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/launch/lidar_rviz.py\n'}
+[0.083425] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/params/cspc_lidar.yaml\n'}
+[0.083511] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/package_run_dependencies/cspc_lidar\n'}
+[0.083598] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/parent_prefix_path/cspc_lidar\n'}
+[0.083684] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.sh\n'}
+[0.083771] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/ament_prefix_path.dsv\n'}
+[0.083857] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/path.sh\n'}
+[0.083942] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/environment/path.dsv\n'}
+[0.084213] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.bash\n'}
+[0.084330] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.sh\n'}
+[0.084421] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.zsh\n'}
+[0.084511] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/local_setup.dsv\n'}
+[0.084599] (cspc_lidar) StdoutLine: {'line': b'-- Symlinking: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/package.dsv\n'}
+[0.085988] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.087811] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/ament_index/resource_index/packages/cspc_lidar\n'}
+[0.087934] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig.cmake\n'}
+[0.088072] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/cmake/cspc_lidarConfig-version.cmake\n'}
+[0.088120] (cspc_lidar) StdoutLine: {'line': b'-- Up-to-date symlink: /root/inblue_ws/install/cspc_lidar/share/cspc_lidar/package.xml\n'}
+[0.089190] (cspc_lidar) CommandEnded: {'returncode': 0}
+[0.099862] (-) TimerEvent: {}
+[0.118438] (cspc_lidar) JobEnded: {'identifier': 'cspc_lidar', 'rc': 0}
+[0.137643] (slam_toolbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.186531] (slam_toolbox) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.199995] (-) TimerEvent: {}
+[0.209863] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.300114] (-) TimerEvent: {}
+[0.368504] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.372005] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.380059] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.394791] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400189] (-) TimerEvent: {}
+[0.411719] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.465544] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.468422] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500296] (-) TimerEvent: {}
+[0.600708] (-) TimerEvent: {}
+[0.701016] (-) TimerEvent: {}
+[0.801306] (-) TimerEvent: {}
+[0.901734] (-) TimerEvent: {}
+[1.002356] (-) TimerEvent: {}
+[1.102767] (-) TimerEvent: {}
+[1.203099] (-) TimerEvent: {}
+[1.303519] (-) TimerEvent: {}
+[1.403847] (-) TimerEvent: {}
+[1.504329] (-) TimerEvent: {}
+[1.605047] (-) TimerEvent: {}
+[1.705306] (-) TimerEvent: {}
+[1.805629] (-) TimerEvent: {}
+[1.905938] (-) TimerEvent: {}
+[1.925215] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.006090] (-) TimerEvent: {}
+[2.106438] (-) TimerEvent: {}
+[2.206935] (-) TimerEvent: {}
+[2.307362] (-) TimerEvent: {}
+[2.407666] (-) TimerEvent: {}
+[2.507963] (-) TimerEvent: {}
+[2.608248] (-) TimerEvent: {}
+[2.708552] (-) TimerEvent: {}
+[2.808846] (-) TimerEvent: {}
+[2.909161] (-) TimerEvent: {}
+[3.009502] (-) TimerEvent: {}
+[3.109818] (-) TimerEvent: {}
+[3.210105] (-) TimerEvent: {}
+[3.288861] (slam_toolbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.310185] (-) TimerEvent: {}
+[3.410498] (-) TimerEvent: {}
+[3.510853] (-) TimerEvent: {}
+[3.611249] (-) TimerEvent: {}
+[3.711554] (-) TimerEvent: {}
+[3.811878] (-) TimerEvent: {}
+[3.912379] (-) TimerEvent: {}
+[4.012998] (-) TimerEvent: {}
+[4.113306] (-) TimerEvent: {}
+[4.213598] (-) TimerEvent: {}
+[4.313888] (-) TimerEvent: {}
+[4.414175] (-) TimerEvent: {}
+[4.514507] (-) TimerEvent: {}
+[4.614800] (-) TimerEvent: {}
+[4.715087] (-) TimerEvent: {}
+[4.815412] (-) TimerEvent: {}
+[4.915746] (-) TimerEvent: {}
+[5.016110] (-) TimerEvent: {}
+[5.116393] (-) TimerEvent: {}
+[5.216722] (-) TimerEvent: {}
+[5.317027] (-) TimerEvent: {}
+[5.417418] (-) TimerEvent: {}
+[5.517705] (-) TimerEvent: {}
+[5.618026] (-) TimerEvent: {}
+[5.718349] (-) TimerEvent: {}
+[5.818706] (-) TimerEvent: {}
+[5.919001] (-) TimerEvent: {}
+[5.948352] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.966580] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.019097] (-) TimerEvent: {}
+[6.052370] (slam_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.052505] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.119211] (-) TimerEvent: {}
+[6.183767] (slam_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.184468] (slam_toolbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.219295] (-) TimerEvent: {}
+[6.299456] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.319430] (-) TimerEvent: {}
+[6.383465] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[6.419519] (-) TimerEvent: {}
+[6.442233] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[6.452287] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[6.520586] (-) TimerEvent: {}
+[6.621830] (-) TimerEvent: {}
+[6.685307] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[6.721992] (-) TimerEvent: {}
+[6.765690] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[6.822245] (-) TimerEvent: {}
+[6.923928] (-) TimerEvent: {}
+[7.024958] (-) TimerEvent: {}
+[7.126114] (-) TimerEvent: {}
+[7.227561] (-) TimerEvent: {}
+[7.327989] (-) TimerEvent: {}
+[7.429652] (-) TimerEvent: {}
+[7.531019] (-) TimerEvent: {}
+[7.631983] (-) TimerEvent: {}
+[7.733478] (-) TimerEvent: {}
+[7.834960] (-) TimerEvent: {}
+[7.899011] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[7.932204] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[7.933476] (slam_toolbox) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[7.933570] (slam_toolbox) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[7.935074] (-) TimerEvent: {}
+[7.939376] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.5 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[7.954555] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[7.973592] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.981393] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_common: 11.2.9 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[8.035297] (-) TimerEvent: {}
+[8.079330] (slam_toolbox) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[8.080998] (slam_toolbox) StdoutLine: {'line': b'-- Found OGRE\n'}
+[8.081119] (slam_toolbox) StdoutLine: {'line': b'--   static     : OFF\n'}
+[8.081159] (slam_toolbox) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[8.081235] (slam_toolbox) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[8.081275] (slam_toolbox) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[8.081310] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[8.081715] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[8.081793] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[8.081831] (slam_toolbox) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[8.081865] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.081898] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[8.081936] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.081968] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[8.135941] (-) TimerEvent: {}
+[8.237380] (-) TimerEvent: {}
+[8.338713] (-) TimerEvent: {}
+[8.440088] (-) TimerEvent: {}
+[8.541317] (-) TimerEvent: {}
+[8.642017] (-) TimerEvent: {}
+[8.742364] (-) TimerEvent: {}
+[8.843344] (-) TimerEvent: {}
+[8.944553] (-) TimerEvent: {}
+[9.045423] (-) TimerEvent: {}
+[9.146118] (-) TimerEvent: {}
+[9.188316] (slam_toolbox) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[9.246755] (-) TimerEvent: {}
+[9.347355] (-) TimerEvent: {}
+[9.448376] (-) TimerEvent: {}
+[9.549549] (-) TimerEvent: {}
+[9.563127] (slam_toolbox) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[9.650014] (-) TimerEvent: {}
+[9.750955] (-) TimerEvent: {}
+[9.851948] (-) TimerEvent: {}
+[9.952897] (-) TimerEvent: {}
+[10.053384] (-) TimerEvent: {}
+[10.153931] (-) TimerEvent: {}
+[10.254943] (-) TimerEvent: {}
+[10.356120] (-) TimerEvent: {}
+[10.457173] (-) TimerEvent: {}
+[10.558059] (-) TimerEvent: {}
+[10.658589] (-) TimerEvent: {}
+[10.759195] (-) TimerEvent: {}
+[10.860010] (-) TimerEvent: {}
+[10.960881] (-) TimerEvent: {}
+[11.061714] (-) TimerEvent: {}
+[11.162158] (-) TimerEvent: {}
+[11.262918] (-) TimerEvent: {}
+[11.363742] (-) TimerEvent: {}
+[11.464463] (-) TimerEvent: {}
+[11.565105] (-) TimerEvent: {}
+[11.665507] (-) TimerEvent: {}
+[11.766143] (-) TimerEvent: {}
+[11.866821] (-) TimerEvent: {}
+[11.967347] (-) TimerEvent: {}
+[12.067922] (-) TimerEvent: {}
+[12.168354] (-) TimerEvent: {}
+[12.268718] (-) TimerEvent: {}
+[12.324799] (slam_toolbox) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[12.326657] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[12.368820] (-) TimerEvent: {}
+[12.458666] (slam_toolbox) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[12.458844] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[12.468934] (-) TimerEvent: {}
+[12.569272] (-) TimerEvent: {}
+[12.605023] (slam_toolbox) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[12.605175] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect\n'}
+[12.669572] (-) TimerEvent: {}
+[12.724406] (slam_toolbox) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[12.724548] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove\n'}
+[12.769685] (-) TimerEvent: {}
+[12.839364] (slam_toolbox) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[12.839580] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[12.869854] (-) TimerEvent: {}
+[12.928776] (slam_toolbox) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[12.928948] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[12.969962] (-) TimerEvent: {}
+[13.011453] (slam_toolbox) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[13.035845] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[13.035991] (slam_toolbox) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[13.070102] (-) TimerEvent: {}
+[13.170559] (-) TimerEvent: {}
+[13.270953] (-) TimerEvent: {}
+[13.371441] (-) TimerEvent: {}
+[13.471997] (-) TimerEvent: {}
+[13.572428] (-) TimerEvent: {}
+[13.672861] (-) TimerEvent: {}
+[13.773413] (-) TimerEvent: {}
+[13.873830] (-) TimerEvent: {}
+[13.974258] (-) TimerEvent: {}
+[14.074675] (-) TimerEvent: {}
+[14.175067] (-) TimerEvent: {}
+[14.275578] (-) TimerEvent: {}
+[14.376047] (-) TimerEvent: {}
+[14.436937] (slam_toolbox) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[14.476170] (-) TimerEvent: {}
+[14.486917] (slam_toolbox) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.9 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[14.576316] (-) TimerEvent: {}
+[14.676831] (-) TimerEvent: {}
+[14.722754] (slam_toolbox) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization filesystem thread \n'}
+[14.728235] (slam_toolbox) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[14.776939] (-) TimerEvent: {}
+[14.877282] (-) TimerEvent: {}
+[14.881096] (slam_toolbox) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):\n'}
+[14.881300] (slam_toolbox) StderrLine: {'line': b'  Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDE_DIR CHOLMOD_LIBRARIES)\n'}
+[14.881345] (slam_toolbox) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.881382] (slam_toolbox) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)\n'}
+[14.881416] (slam_toolbox) StderrLine: {'line': b'  CMake/FindCHOLMOD.cmake:86 (find_package_handle_standard_args)\n'}
+[14.881449] (slam_toolbox) StderrLine: {'line': b'  CMakeLists.txt:78 (find_package)\n'}
+[14.881523] (slam_toolbox) StderrLine: {'line': b'\n'}
+[14.881612] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[14.881730] (slam_toolbox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.881794] (slam_toolbox) StdoutLine: {'line': b'See also "/root/inblue_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".\n'}
+[14.894048] (slam_toolbox) CommandEnded: {'returncode': 1}
+[14.905667] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 1}
+[14.916688] (-) EventReactorShutdown: {}

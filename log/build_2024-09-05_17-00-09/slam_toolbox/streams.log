@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/root/inblue_ws/build/slam_toolbox': /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.575s] -- The CXX compiler identification is GNU 11.4.0
+[0.824s] -- Detecting C compiler ABI info
+[0.914s] -- Detecting C compiler ABI info - done
+[0.918s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.919s] -- Detecting C compile features
+[0.919s] -- Detecting C compile features - done
+[0.922s] -- Detecting CXX compiler ABI info
+[1.027s] -- Detecting CXX compiler ABI info - done
+[1.031s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.031s] -- Detecting CXX compile features
+[1.031s] -- Detecting CXX compile features - done
+[2.219s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[2.219s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.219s]   has asked CMake to find a package configuration file provided by
+[2.219s]   "ament_cmake", but CMake did not find one.
+[2.219s] 
+[2.219s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.219s]   any of the following names:
+[2.219s] 
+[2.219s]     ament_cmakeConfig.cmake
+[2.219s]     ament_cmake-config.cmake
+[2.219s] 
+[2.219s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.219s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.220s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.220s]   has been installed.
+[2.220s] 
+[2.220s] [0m
+[2.220s] -- Configuring incomplete, errors occurred!
+[2.220s] See also "/root/inblue_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[2.222s] Invoked command in '/root/inblue_ws/build/slam_toolbox' returned '1': /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox

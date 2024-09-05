@@ -1,0 +1,2 @@
+Invoking command in '/root/inblue_ws/build/slam_toolbox': /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox
+Invoked command in '/root/inblue_ws/build/slam_toolbox' returned '1': /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox

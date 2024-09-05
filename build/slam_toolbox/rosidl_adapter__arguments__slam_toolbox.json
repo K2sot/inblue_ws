@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/root/inblue_ws/src/slam_toolbox:srvs/Pause.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/ClearQueue.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/ToggleInteractive.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/Clear.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/SaveMap.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/LoopClosure.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/MergeMaps.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/AddSubmap.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/DeserializePoseGraph.srv",
+    "/root/inblue_ws/src/slam_toolbox:srvs/SerializePoseGraph.srv"
+  ]
+}

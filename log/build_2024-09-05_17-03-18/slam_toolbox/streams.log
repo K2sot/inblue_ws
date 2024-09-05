@@ -1,0 +1,78 @@
+[0.013s] Invoking command in '/root/inblue_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox
+[0.020s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.107s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.111s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[0.252s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.253s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.257s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.307s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.761s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.859s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.938s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.981s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[5.985s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.179s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.250s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[7.384s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.387s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.387s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.393s] -- Found tf2_sensor_msgs: 0.25.5 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[7.404s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[7.413s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.417s] -- Found rviz_common: 11.2.9 (/opt/ros/humble/share/rviz_common/cmake)
+[7.483s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[7.484s] -- Found OGRE
+[7.484s] --   static     : OFF
+[7.484s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[7.484s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.484s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[7.484s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[7.484s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[7.484s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[7.484s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[7.484s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.484s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[7.484s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[7.484s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.999s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[8.999s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[10.254s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[10.291s] -- Found rviz_default_plugins: 11.2.9 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[10.838s] -- Found CHOLMOD: /usr/include/suitesparse  
+[10.918s] -- Found CSparse: /usr/include/suitesparse  
+[12.139s] -- Looking for sgemm_
+[12.245s] -- Looking for sgemm_ - not found
+[16.462s] -- Looking for sgemm_
+[16.586s] -- Looking for sgemm_ - found
+[16.586s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[16.587s] -- Looking for cheev_
+[16.692s] -- Looking for cheev_ - not found
+[17.245s] -- Looking for cheev_
+[17.275s] -- Looking for cheev_ - not found
+[17.275s] -- Looking for cheev_
+[17.445s] -- Looking for cheev_ - found
+[17.445s] -- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  
+[18.705s] [31mCMake Error at CMakeLists.txt:82 (find_package):
+[18.705s]   By not providing "FindCeres.cmake" in CMAKE_MODULE_PATH this project has
+[18.705s]   asked CMake to find a package configuration file provided by "Ceres", but
+[18.705s]   CMake did not find one.
+[18.705s] 
+[18.705s]   Could not find a package configuration file provided by "Ceres" with any of
+[18.705s]   the following names:
+[18.705s] 
+[18.705s]     CeresConfig.cmake
+[18.705s]     ceres-config.cmake
+[18.705s] 
+[18.705s]   Add the installation prefix of "Ceres" to CMAKE_PREFIX_PATH or set
+[18.705s]   "Ceres_DIR" to a directory containing one of the above files.  If "Ceres"
+[18.705s]   provides a separate development package or SDK, be sure it has been
+[18.706s]   installed.
+[18.706s] 
+[18.706s] [0m
+[18.706s] -- Configuring incomplete, errors occurred!
+[18.706s] See also "/root/inblue_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[18.706s] See also "/root/inblue_ws/build/slam_toolbox/CMakeFiles/CMakeError.log".
+[18.717s] Invoked command in '/root/inblue_ws/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox

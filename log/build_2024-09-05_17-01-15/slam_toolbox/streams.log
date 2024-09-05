@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/root/inblue_ws/build/slam_toolbox': /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox
+[2.083s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[2.083s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.083s]   has asked CMake to find a package configuration file provided by
+[2.083s]   "ament_cmake", but CMake did not find one.
+[2.083s] 
+[2.083s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.083s]   any of the following names:
+[2.083s] 
+[2.083s]     ament_cmakeConfig.cmake
+[2.083s]     ament_cmake-config.cmake
+[2.083s] 
+[2.084s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.084s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.084s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.084s]   has been installed.
+[2.084s] 
+[2.084s] [0m
+[2.084s] -- Configuring incomplete, errors occurred!
+[2.084s] See also "/root/inblue_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[2.085s] Invoked command in '/root/inblue_ws/build/slam_toolbox' returned '1': /usr/bin/cmake /root/inblue_ws/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/inblue_ws/install/slam_toolbox

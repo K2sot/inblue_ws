@@ -1,0 +1,10 @@
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Pause.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ClearQueue.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ToggleInteractive.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Clear.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SaveMap.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/LoopClosure.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/MergeMaps.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/AddSubmap.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/DeserializePoseGraph.idl
+/root/inblue_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SerializePoseGraph.idl
