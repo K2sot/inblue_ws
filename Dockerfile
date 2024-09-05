@@ -4,6 +4,8 @@ FROM ros:humble-ros-core
 RUN apt-get update \
     && apt-get -y update
 RUN apt install ros-dev-tools -y 
+RUN apt install ros-humble-navigation2 -y
+RUN apt isntall ros-humble-nav2-bringup -y
 
 WORKDIR /Robot
 
